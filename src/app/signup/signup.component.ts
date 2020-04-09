@@ -1,15 +1,20 @@
-import { Component, OnInit } from '@angular/core';
-
+import { Component } from '@angular/core';
+import { AuthService } from '../auth/auth.service';
+import { Router } from '@angular/router';
+import { User } from '../auth/user';
 @Component({
   selector: 'app-signup',
   templateUrl: './signup.component.html',
   styleUrls: ['./signup.component.css']
 })
-export class SignupComponent implements OnInit {
+export class SignupComponent {
 
-  constructor() { }
+  constructor(private authService: AuthService, private router: Router) { }
 
-  ngOnInit(): void {
+  register(form) {
+    console.log(form.value);
+    this.authService.signup(form.value).subscribe((res) => {
+      this.router.navigateByUrl('home');
+    });
   }
-
 }
