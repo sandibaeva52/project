@@ -79,6 +79,7 @@ input {
   color: #eee;
   font-weight: bold;
   text-transform: uppercase;
+margin: 10px;
 }
 .form-login input[type="submit"]:focus, .form-login input[type="submit"]:hover {
   background-color: #120a2e;
@@ -89,6 +90,7 @@ input {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 2rem;
+
 }
 
 

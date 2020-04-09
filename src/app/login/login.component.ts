@@ -19,7 +19,9 @@ export class LoginComponent{
     console.log(form.value);
     this.authService.signIn(form.value).subscribe((res) =>{
       console.log('Logged in!');
-      this.router.navigateByUrl('admin');
+      this.router.navigateByUrl('home');
     });
   }
+
+
 }

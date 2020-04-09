@@ -14,7 +14,7 @@ export class SignupComponent {
   register(form) {
     console.log(form.value);
     this.authService.signup(form.value).subscribe((res) => {
-      this.router.navigateByUrl('home');
+      this.router.navigateByUrl('login');
     });
   }
 }
