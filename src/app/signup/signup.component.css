@@ -51,7 +51,7 @@ input {
   color: #5b5b5b;
 }
 
-.form input[type="password"], .form input[type="text"], .form input[type="submit"] {
+.form input[type="password"], .form input[type="text"]{
   width: 100%;
 }
 
@@ -115,7 +115,7 @@ a.btnCancel{
   background-color:#eee ;
   color: rgb(86, 69, 238);
 }
-.form-field {
+.form-group {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;

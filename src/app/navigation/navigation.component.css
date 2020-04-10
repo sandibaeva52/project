@@ -1,0 +1,23 @@
+
+.sidenav {
+  justify-self: right;
+  font-weight: bold;
+  list-style-type: none;
+  margin: 0 ;
+  padding: 0;
+  float: left;
+
+}
+
+
+a {
+  padding: 0.4em;
+  text-transform: uppercase;
+  font-size: .8em;
+  color: black;
+}
+
+/*:hover {*/
+/*   background: #8E2BFF;*/
+/* }*/
+

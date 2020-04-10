@@ -15,6 +15,10 @@ import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { AdminComponent } from './admin/admin.component';
 import { AlertComponent } from './_components/alert.component';
+import { CategoryComponent } from './category/category.component';
+import { ImageDetailComponent } from './image-detail/image-detail.component';
+import { ImageListComponent } from './image-list/image-list.component';
+import { NavigationComponent } from './navigation/navigation.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +30,10 @@ import { AlertComponent } from './_components/alert.component';
     SignupComponent,
     AdminComponent,
     AlertComponent,
+    CategoryComponent,
+    ImageDetailComponent,
+    ImageListComponent,
+    NavigationComponent,
   ],
   imports: [
     BrowserModule,
