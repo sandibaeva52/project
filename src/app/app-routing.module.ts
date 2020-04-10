@@ -5,16 +5,17 @@ import { ContactComponent } from './contact/contact.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { AdminComponent } from './admin/admin.component';
+import { AuthGuard } from './_helpers/auth.guard';
+
 
 const routes: Routes = [
-  { path: 'home', component: HomeComponent },
-  { path: '', redirectTo: '/login', pathMatch: 'full' },
+  { path: '', component: HomeComponent },
+  // { path: 'admin', redirectTo: '/login', pathMatch: 'full', canActivate: [AuthGuard] },
   { path: 'contact', component: ContactComponent },
   { path: 'login', component: LoginComponent },
   { path: 'signup', component: SignupComponent },
-  // { path: 'admin', component: AdminComponent, canActivate: [AuthGuard]  },
-  { path: 'admin', component: AdminComponent  },
-
+  { path: 'admin', component: AdminComponent, canActivate: [AuthGuard]  },
+  { path: '**', redirectTo: '' }
 ];
 
 @NgModule({
