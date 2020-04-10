@@ -19,6 +19,8 @@ import { CategoryComponent } from './category/category.component';
 import { ImageDetailComponent } from './image-detail/image-detail.component';
 import { ImageListComponent } from './image-list/image-list.component';
 import { NavigationComponent } from './navigation/navigation.component';
+import { CartComponent } from './cart/cart.component';
+import { ShippingComponent } from './shipping/shipping.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +36,8 @@ import { NavigationComponent } from './navigation/navigation.component';
     ImageDetailComponent,
     ImageListComponent,
     NavigationComponent,
+    CartComponent,
+    ShippingComponent,
   ],
   imports: [
     BrowserModule,

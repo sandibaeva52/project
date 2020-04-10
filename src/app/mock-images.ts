@@ -9,7 +9,8 @@ export const IMAGES: Image[] = [
       'Oil on Board\n' +
       '10 × 8 in\n' +
       '25.4 × 20.3 cm\n' +
-      'This is a unique work.',
+      'This is a unique work.'+
+      'All the items in this sale are located at our Westport Gallery for preview and for pickup. Previews for the auction are Monday January 14th through Sunday January 20th From 9am-5pm in Westport. Pickups for this sale will be Monday January 21st through Friday Friday February 1st 9am-5pm weekdays only. We are not open at the Westport Gallery on the weekends for pickup. The Absence of a condition statement does not imply that the lot is in perfect condition or completely free from wear and tear, imperfections or the effects of aging. Condition requests can be requested via email. Any condition statement given, as a courtesy to a client, is only an opinion and should not be treated as a statement of fact. Westport Auction shall have no responsibility for any error or omission.',
     price: 5500,
     images: 'https://cdn.artcld.com/img/w_2000,c_fit/hb06fxvpxzcded9gnnpl.jpg'
   },
@@ -21,7 +22,11 @@ export const IMAGES: Image[] = [
       'Oil on linen\n' +
       '59 1/10 × 47 1/5 in\n' +
       '150 × 120 cm\n' +
-      'This is a unique work.',
+      'This is a unique work.'+
+      'Hunt Slonem (b. 1951)' +
+      'Best known for his representational imagery with elements of Abstract Expressionism, Hunt Slonem often fuses mysticism and whimsy in his animal subjects. Born in New York, Slonem studied at Skowhegan School of Painting and Sculpture and Tulane University. His interest in birds – a frequent subject of the artist – began as a child living in Hawaii and studying in Nicaragua. These travels have also heavily influenced his work, infusing them with elements of varying cultures. His work has been featured in numerous solo and group exhibitions, and can be found in the public collections of the Guggenheim Museum, the Metropolitan Museum of Art, the Whitney Museum of American Art, and the Moreau Foundation, including numerous private collections. The artist currently lives and works in New York.'+
+      'Shipping costs excl. statutory VAT and plus 2,5% (+VAT) shipping insurance.'+
+      'Auctionata charges the resale rights tax pursuant to Section 26 of the German Copyright Act (UrhG) towards the buyer in case of the sale of an original work of art or photography prior to 70 years having lapsed since the death of their creator. Therefore, Auctionata charges when purchasing a good – if a protection as an original work of art or photography is given – starting from a hammer price of EUR 400 an additional amount, which is calculated according to Section 26 (2) German Copyright Act (UrhG) and which does not exceed the amount of EUR 12,500. You can find more information about resale rights tax in Auctionata´s table of fees and T&C.',
     price: 4000,
     images: 'https://d32dm0rphc51dk.cloudfront.net/WSHHcynj_3lSHd1gOKayew/large.jpg'
   },

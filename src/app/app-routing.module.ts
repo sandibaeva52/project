@@ -9,6 +9,8 @@ import { AuthGuard } from './_helpers/auth.guard';
 import {ImageDetailComponent} from './image-detail/image-detail.component';
 import {ImageListComponent} from './image-list/image-list.component';
 import {CategoryComponent} from './category/category.component';
+import { CartComponent } from './cart/cart.component';
+import { ShippingComponent } from './shipping/shipping.component';
 
 
 const routes: Routes = [
@@ -21,8 +23,9 @@ const routes: Routes = [
   { path: 'images', component: ImageListComponent},
   { path: 'category/:id/image-id/:id', component: ImageDetailComponent},
   { path: 'category/:id', component: CategoryComponent},
+  { path: 'cart', component: CartComponent },
+  { path: 'shipping', component: ShippingComponent },
   { path: '**', redirectTo: '' },
-
 ];
 
 @NgModule({
